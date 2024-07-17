@@ -1,6 +1,6 @@
 {
   "name": "tbl-as-yml",
-  "description": "",
+  "description": "Converts .tbl and .yml files to support StreamServe meta-table format",
   "version": "0.0.1",
   "main": "index.js",
   "type": "module",
