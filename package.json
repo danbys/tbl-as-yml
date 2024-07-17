@@ -1,0 +1,24 @@
+{
+  "name": "tbl-as-yml",
+  "description": "",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@danbys/log-config": "^1.0.1",
+    "@danbys/s3-artifacts": "^0.0.3",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.3"
+  }
+}
